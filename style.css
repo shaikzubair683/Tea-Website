@@ -2,23 +2,35 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)),url(images/abrar.jpg);
+    background-size: cover;
+    position: relative;
+}
 .navbar{
     display: flex;
     background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
 }
 .nav-list{
     display: flex;
-    width: 70%;
+    width: 50%;
     align-items: center;
+    justify-content: space-around;
+    
 }
 .nav-list img{
-    margin-left: 1cm;
-    width: 2cm;
+    width: 2.5cm;
     border: 3px solid black;
     border-radius: 5cm;
 }
 .nav-list li{
-    padding-left: 1.5cm;
     list-style: none;
 }
 
@@ -27,34 +39,79 @@
     color: white;
 }
 
-
 .rightside{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 1cm;
+
+}
+
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.matter1{
+    height: 100vh;
+    max-width: 60%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.matter1{
+
+.firsthalf{
+    width: 80%;
     display: flex;
-}
-.image{
-    width: 40%;
-    margin: 0.8cm;  
-    display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.image img{
-    width: 7cm;
-    border-radius: 1cm;
-}
-.text{
-    padding-top: 2cm;
-    padding-bottom: 2cm;
-    padding-right: 2cm;
-    padding-left: 0.5cm;
 
+.secondhalf img{
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 3cm;
+    
 }
-.text h1{
-    padding-left: 6cm;
-    padding-bottom:5px ;
+.secondhalf{
+    display: block;
+    margin: auto;
+}
+.textbig{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.textsmall{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btn{
+    margin:10px;
+    font-size: large;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+#search{
+    height: 25px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.buttonSmall{
+    height: 28px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    margin: 3px;
+
 }
