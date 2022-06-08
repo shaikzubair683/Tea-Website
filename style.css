@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     min-width: 100%;
-    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)),url(images/abrar.jpg);
+    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)),url(images/teafields.jpg);
     background-size: cover;
     position: relative;
 }
@@ -53,11 +53,15 @@
     align-items: center;
     justify-content: center;
     color: white;
+    border: 3px solid black;
+    border-radius: 1cm;
+    padding: 1cm;
+    background: black;
 }
 
 .matter1{
     height: 100vh;
-    max-width: 60%;
+    max-width: 75%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -114,4 +118,54 @@
     padding: 3px 10px;
     margin: 3px;
 
+}
+.matter2{
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.firsthalf2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    padding: 1cm;
+
+}
+.aboutus{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5cm;
+
+}
+
+.intro{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.something{
+    font: size 25px;
+}
+
+.secondhalf2 img{
+    width:200px;
+    border: 2px solid white;
+    border-radius: 1cm;
+    margin: 13px;
+}
+.mainbox2{
+    background-color: black;
+    height:fit-content;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
